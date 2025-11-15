@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sharif Food</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Vazirmatn', 'sans-serif'],
+            },
+            colors: {
+              'sharif-yellow': '#FFF7A8',
+              'sharif-mint': '#B6F4C2',
+              'sharif-gir': '#F44336', // Red for User
+              'sharif-bar': '#2196F3', // Blue for Rider
+            },
+            borderRadius: {
+              '4xl': '1.5rem', // 24px
+              '5xl': '2rem', // 32px
+            },
+            borderWidth: {
+              '3': '3px',
+            },
+            boxShadow: {
+                'study': '4px 4px 0px 0px rgba(0,0,0,1)',
+            }
+          },
+        },
+      };
+    </script>
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.1"
+  }
+}
+</script>
+    <style>
+      body {
+        font-family: 'Vazirmatn', sans-serif;
+      }
+      .bouncy-button {
+        transition: transform 0.1s ease-in-out;
+      }
+      .bouncy-button:active {
+        transform: scale(0.95);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

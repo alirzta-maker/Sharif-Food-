@@ -1,0 +1,5 @@
+{
+  "name": "Sharif Food",
+  "description": "A complete food ordering platform for Sharif University, with dual-language support (FA/EN) and separate interfaces for customers (SharifGir) and delivery riders (SharifBar) featuring a capsule-based role switcher and specialized restaurant ordering flows.",
+  "requestFramePermissions": []
+}
